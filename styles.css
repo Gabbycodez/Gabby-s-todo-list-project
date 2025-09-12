@@ -1,0 +1,148 @@
+.completed {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    color: rgb(242, 105, 151);
+    border: 2.5px solid rgb(242, 105, 151);
+}
+
+/* Fonts */ 
+
+h1.a {
+    font-family: "Audiowide", sans-serif;
+}
+h1.b {
+    font-family: "Sofia", sans-serif;
+}
+h1.c {
+    font-family: "Trirong", serif;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.bitcount-grid {
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 800;  
+    font-style: normal;
+}
+  
+@keyframes neonPulse {
+    0%, 100% {
+      text-shadow: 
+        0 0 5px #f26997,
+        0 0 10px #f26997,
+        0 0 20px #ff4fae,
+        0 0 40px #ff4fae,
+        0 0 80px #ff4fae;
+    }
+    50% {
+      text-shadow: 
+        0 0 2px #f26997,
+        0 0 5px #f26997,
+        0 0 10px #ff4fae,
+        0 0 20px #ff4fae,
+        0 0 40px #ff4fae;
+    }
+}
+#header { 
+    font-family: "Bitcount Grid Double", system-ui;
+    font-size: 2rem;
+    color: #44232e;
+    animation: neonPulse 1.5s infinite alternate;
+    text-align: center;
+
+}
+
+#todo-form { 
+    font-family: "Bebas Neue", sans-serif;
+    padding: 25px 30px;
+    font-size: 1rem;
+    border: 2px solid #f26997;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    box-shadow: 0 0 5px #2c0f18, 0 0 10px #ff4fae;
+    transition: all 0.5s ease;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 80%;          /* take most of the page width */
+    max-width: 300px;    /* prevent it from being too wide */
+    margin: 0 auto; 
+}
+
+#todo-container {
+    background: rgb(41, 33, 33);
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid #ff00f7;
+    padding: 20px;
+    color: white;
+    border-radius: 60px;
+  }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  
+  }
+  
+li {
+  border: 2px solid rgb(227, 79, 146);
+  border-radius: 55px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 5px;
+
+  }
+  
+.edit-btn, .delete-btn {
+    float: right;
+    color:rgb(2, 11, 38);
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+    font-size: "Bitcount Grid Double", system-ui;
+    color: #44232e;
+    animation: neonPulse 1.5s infinite alternate;
+  } 
+
+  h1 {
+    margin-bottom: 20px; 
+  }
+
+  #input-button {
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ea2e96;
+  }
+
+  #input-button:hover {
+    background-color: #d3bdd2; 
+  }
+
+body{ 
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(175, 30, 107, 0.028) 0%, #fd2d84 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
